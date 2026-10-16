@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dentalhygienelondon.co.uk/sitemap.xml
