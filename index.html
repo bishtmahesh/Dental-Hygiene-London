@@ -966,6 +966,8 @@ html:has(dialog.book-modal[open]){overflow:hidden}
 .modal-close:focus{outline:none}
 .modal-close:focus-visible{outline:2px solid var(--primary);outline-offset:2px}
 @media (prefers-reduced-motion:reduce){.book-modal[open]{animation:none}}
+footer .footer-brand{align-self:flex-start;color:#fff}
+footer .footer-brand small{color:#D6DBDF}
 .hyg-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;max-width:1080px;margin-inline:auto}
 .hyg-card{display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--hairline);border-radius:var(--r-lg);overflow:hidden}
 .hyg-photo{aspect-ratio:1/1;overflow:hidden}
@@ -1272,8 +1274,8 @@ html:has(dialog.book-modal[open]){overflow:hidden}
   <div class="wrap">
     <div class="top">
       <div style="display:flex;flex-direction:column;gap:22px;max-width:440px">
-        <span class="logo-tile"><img src="./assets/mint-logo-trim.png" alt="Mint Dental Clinic London"></span>
-        <p><strong>Dental Hygiene London</strong><br>Professional dental hygiene services provided at Mint Dental Clinic, Elephant &amp; Castle.<br>3 St George’s Court, Garden Row, London SE1 6HD</p>
+        <a class="brand brand-word footer-brand" href="#top" aria-label="Dental Hygiene London, back to top"><b>Dental Hygiene London</b><small>at Mint Dental Clinic</small></a>
+        <p>Professional dental hygiene services provided at Mint Dental Clinic, Elephant &amp; Castle.<br>3 St George’s Court, Garden Row, London SE1 6HD</p>
       </div>
       <div class="f-col">
         <h4>Contact</h4>
