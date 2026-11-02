@@ -945,14 +945,20 @@ body .hero-c .stats .stat+.stat::before{background:#D5E6DA}
 @media (max-width:480px){.hero-cta{align-self:stretch;justify-content:space-between;font-size:15px;padding-left:20px;white-space:nowrap}}
 /* hygienist cards */
 .hero-fee{font-size:17px;color:var(--ink);margin:0}.hero-fee b{font-family:var(--serif);font-size:30px;font-weight:500;margin-left:6px}
-.price-more{margin-top:10px;padding-top:20px;border-top:1px solid rgba(255,255,255,.22);display:flex;flex-direction:column;gap:12px}
-.price.featured .price-more h4{margin:0;font-family:var(--sans);font-size:14px;font-weight:700;letter-spacing:.02em;color:#fff}
-.price-more ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
-.price-more li{display:flex;justify-content:space-between;align-items:baseline;gap:16px;font-size:16px;color:#fff}
-.price-more li small{font-size:14px;color:#D6DBDF}
-.price-more li b{flex:none;font-weight:700;color:#fff}
-@media (max-width:600px){.price-more li small{display:block;margin-top:2px}}
-.price.featured .price-more p{margin:0;font-size:14px;line-height:1.5;color:#D6DBDF}
+.price.featured::before{opacity:.08}
+.price-more{margin-top:14px;display:flex;flex-direction:column;gap:14px}
+.price.featured .price-more h4{margin:0;font-family:var(--sans);font-size:12.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--mint-glow)}
+.price-more ul{list-style:none;margin:0;padding:4px 20px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:16px}
+.price-more li{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:14px 0;font-size:16px;line-height:1.3;color:#fff}
+.price-more li+li{border-top:1px solid rgba(255,255,255,.1)}
+.price-more li small{display:block;margin-top:3px;font-size:13.5px;color:#BFC6CC}
+.price-more li b{flex:none;font-weight:700;font-size:17px;color:#fff;font-variant-numeric:tabular-nums;text-align:right}
+.price-more li b em{font-style:normal;font-weight:500;font-size:13px;color:#BFC6CC;margin-right:4px}
+.price.featured .price-more p{display:flex;gap:10px;align-items:flex-start;margin:0;font-size:14px;line-height:1.5;color:#D6DBDF}
+.price-more p svg{flex:none;width:18px;height:18px;margin-top:1px;color:var(--mint-glow)}
+@media (max-width:600px){.price-more ul{padding:2px 16px}}
+.price.featured .price-btn{margin-top:auto}
+.price.featured .price-more+.price-btn{margin-top:10px}
 html:has(dialog.book-modal[open]){overflow:hidden}
 .book-modal{width:min(560px,calc(100vw - 32px));max-height:calc(100dvh - 32px);margin:auto;padding:0;border:0;border-radius:var(--r-lg);background:#fff;color:var(--slate);overflow:hidden;box-shadow:0 30px 70px -20px rgba(30,40,45,.45)}
 .book-modal[open]{display:flex;animation:modal-in .22s ease-out}
@@ -1077,15 +1083,17 @@ footer .footer-brand small{color:#D6DBDF}
         <h3>Initial direct-access hygiene appointment</h3>
         <!-- FEE: uncomment and add the final fee: <p class="amt">£XX</p> -->
         <p>45 minutes with your hygienist, including an assessment and your professional clean.</p>
-        <a class="btn btn-dark price-btn" href="#book">Book Your Hygiene Appointment<span class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
         <div class="price-more">
-          <h4>Also available</h4>
+          <h4>Other hygienist costs</h4>
           <ul>
-            <li><span>Follow-up hygiene appointment <small>(up to 30 min)</small></span><b>£73</b></li>
-            <li><span>Airflow stain removal</span><b>from £30</b></li>
+            <li><span>Follow-up hygienist clean<small>Up to 30 min</small></span><b>£73</b></li>
+            <li><span>Hygiene treatment with dentist<small>Up to 30 min</small></span><b>£150</b></li>
+            <li><span>Basic Air Polish</span><b><em>from</em>£30</b></li>
+            <li><span>Enhanced Air Polish</span><b>£150</b></li>
           </ul>
-          <p>Patients with eligible dental insurance may be able to claim for hygiene treatment, depending on their policy.</p>
+          <p><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z"/><path d="M9 12l2 2 4-4"/></svg><span>Patients with eligible dental insurance may be able to claim for hygiene treatment, depending on their policy.</span></p>
         </div>
+        <a class="btn btn-dark price-btn" href="#book">Book Your Hygiene Appointment<span class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
       </div>
       <div class="panel yes reveal d1">
         <h3>Included</h3>
