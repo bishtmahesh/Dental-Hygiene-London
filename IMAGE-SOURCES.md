@@ -29,4 +29,7 @@ The original mock-up asked for "real photography, no stock smiles". The stock ph
 | route-dentist-xray.webp | Client-supplied Adobe Stock image AdobeStock_320631517 (cropped) | Adobe Stock licence held by the client |
 | danica-corbett.webp | Mint team page photo (Danica.jpg), cropped | Mint own photo: confirm with practice |
 | faq-smile-mirror.webp | Client-supplied Adobe Stock image AdobeStock_1888237260 (cropped) | Adobe Stock licence held by the client |
+| why-professional-cleaning.webp | Adobe Stock image AdobeStock_280639516 (cropped), supplied 2026-11-02 | Adobe Stock: confirm the licence is held |
+| step-assessment-mirror.webp | Adobe Stock image AdobeStock_606463645 (resized), supplied 2026-11-02 | Adobe Stock: confirm the licence is held |
 | da-hygienist-consult.webp | Client-supplied Adobe Stock image AdobeStock_422265425 (cropped) | Adobe Stock licence held by the client |
+| peter-igberaese.webp | Mint team page photo (Peter-Igberaese-.jpg), resized. Bio shortened from https://mintdentalclinic.co.uk/team/peter-igberaese | Mint own photo: confirm with practice |
