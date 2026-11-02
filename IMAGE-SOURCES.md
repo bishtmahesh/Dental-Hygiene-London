@@ -31,5 +31,6 @@ The original mock-up asked for "real photography, no stock smiles". The stock ph
 | faq-smile-mirror.webp | Client-supplied Adobe Stock image AdobeStock_1888237260 (cropped) | Adobe Stock licence held by the client |
 | why-professional-cleaning.webp | Adobe Stock image AdobeStock_280639516 (cropped), supplied 2026-11-02 | Adobe Stock: confirm the licence is held |
 | step-assessment-mirror.webp | Adobe Stock image AdobeStock_606463645 (resized), supplied 2026-11-02 | Adobe Stock: confirm the licence is held |
+| included-smile.webp | Adobe Stock image AdobeStock_400166074 (resized; file taken from the Egham project folder), supplied 2026-11-02 | Adobe Stock: confirm the licence covers this site |
 | da-hygienist-consult.webp | Client-supplied Adobe Stock image AdobeStock_422265425 (cropped) | Adobe Stock licence held by the client |
 | peter-igberaese.webp | Mint team page photo (Peter-Igberaese-.jpg), resized. Bio shortened from https://mintdentalclinic.co.uk/team/peter-igberaese | Mint own photo: confirm with practice |
